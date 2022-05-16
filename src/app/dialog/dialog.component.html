@@ -8,12 +8,12 @@
     <mat-form-field id="form-field-dialog" appearance="outline">
       <mat-label>Categoria</mat-label>
       <mat-select formControlName="category">
-        <mat-option value="frutas">Frutas</mat-option>
-        <mat-option value="vegetais">Vegetais</mat-option>
-        <mat-option value="carnes">Carnes</mat-option>
-        <mat-option value="banho">Banho</mat-option>
-        <mat-option value="cozinha">Cozinha</mat-option>
-        <mat-option value="eletronicos">Eletrônicos</mat-option>
+        <mat-option value="Frutas">Frutas</mat-option>
+        <mat-option value="Vegetais">Vegetais</mat-option>
+        <mat-option value="Carnes">Carnes</mat-option>
+        <mat-option value="Banho">Banho</mat-option>
+        <mat-option value="Cozinha">Cozinha</mat-option>
+        <mat-option value="Eletronicos">Eletrônicos</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field id="form-field-dialog" appearance="outline">
@@ -50,5 +50,5 @@
 </div>
 <div mat-dialog-actions [align]="'end'">
   <button mat-raised-button mat-dialog-close color="warn">Cancelar</button>
-  <button mat-raised-button color="primary" (click)="addProduct()" >Salvar</button>
+  <button mat-raised-button color="primary" (click)="addProduct()" >{{actionBtn}}</button>
 </div>

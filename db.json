@@ -1,13 +1,49 @@
 {
-  "productList": [],
-  "comments": [
+  "productList": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "productName": "Amendoim",
+      "category": "Vegetais",
+      "freshness": "Novo",
+      "price": 12.9,
+      "comment": "KG",
+      "date": "2022-05-24T03:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Bananas",
+      "category": "Frutas",
+      "freshness": "Novo",
+      "price": 6.9,
+      "comment": "KG",
+      "date": "2022-05-26T03:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Maçãs",
+      "category": "Frutas",
+      "freshness": "Novo",
+      "price": 9.9,
+      "comment": "KG",
+      "date": "2022-05-26T03:00:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Abacate",
+      "category": "Frutas",
+      "freshness": "Novo",
+      "price": 16.9,
+      "comment": "KG",
+      "date": "2022-05-26T03:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Kiwis",
+      "category": "Frutas",
+      "freshness": "Novo",
+      "price": 26.9,
+      "comment": "KG",
+      "date": "2022-05-26T03:00:00.000Z",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
