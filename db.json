@@ -40,10 +40,28 @@
       "productName": "Kiwis",
       "category": "Frutas",
       "freshness": "Novo",
-      "price": 26.9,
+      "price": 18.9,
       "comment": "KG",
       "date": "2022-05-26T03:00:00.000Z",
       "id": 5
+    },
+    {
+      "productName": "123",
+      "category": "Cozinha",
+      "freshness": "Reformado",
+      "price": 30.9,
+      "comment": "foi chato",
+      "date": "2022-05-26T03:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "qualquer coisa",
+      "category": "Vegetais",
+      "freshness": "Usado",
+      "price": 10.9,
+      "comment": "qlqr coisa\n",
+      "date": "2022-05-18T03:00:00.000Z",
+      "id": 7
     }
   ]
 }

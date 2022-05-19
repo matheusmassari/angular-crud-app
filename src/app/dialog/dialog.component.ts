@@ -28,7 +28,7 @@ export class DialogComponent implements OnInit {
       comment: ['', Validators.required],
       date: ['', Validators.required],
     });
-
+    
     if (this.editData) {
       this.actionBtn = 'Atualizar';
       this.productForm.controls['productName'].setValue(
@@ -39,6 +39,7 @@ export class DialogComponent implements OnInit {
       this.productForm.controls['price'].setValue(this.editData.price);
       this.productForm.controls['comment'].setValue(this.editData.comment);
       this.productForm.controls['date'].setValue(this.editData.date);
+      
     }
   }
 
